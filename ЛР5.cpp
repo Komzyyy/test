@@ -5,6 +5,8 @@
 using namespace std;
 int main()
 {
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
 	double x = 2.0, y = 4.0, z = 2.0, a = 1, b = 1, e = M_E;
 	printf("Enter x: "), scanf_s("%lf", &x);
 	printf("Enter y: "), scanf_s("%lf", &y);
